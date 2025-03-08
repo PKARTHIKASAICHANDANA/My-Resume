@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color: #3ecff7;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 75%;
+    margin-bottom: 10px;
+}
+
+.skills button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    background: #0ebc31;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.skills button:hover {
+    background: #d59217;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #056914;
+    padding-bottom: 5px;
+    color: #f64b4b;
+}
+
+.job, .education, .project {
+    background: #ecf0f1;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #d01e1e;
+}
